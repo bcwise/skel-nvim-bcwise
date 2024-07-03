@@ -15,6 +15,13 @@ A skeleton plugin for nvim inspired by [vim-skeleton](https://github.com/noahfre
 
 
 ## Installation
+Using [laxyvim](https://www.lazyvim.org):
+return {
+  {
+    "bcwise/skel-nvim"
+  }
+}
+
 Using [plug](https://github.com/junegunn/vim-plug):
 
 ```vim
