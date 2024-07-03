@@ -23,7 +23,7 @@ function M.get_date(cfg)
 end
 
 function M.get_timestamp()
-	return os.date("%x; %X")
+	return os.date("%a, %d %b %Y %I:%M:%S%p")
 end
 
 -- cpp speficifics
